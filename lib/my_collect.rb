@@ -1,6 +1,5 @@
 def my_collect(language)
-  language = language.upcase.split('')
-  collection = []
+  i = 0
   collection << yield(language)
 
 
