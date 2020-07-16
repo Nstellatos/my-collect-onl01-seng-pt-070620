@@ -5,5 +5,3 @@ def my_collect(language)
   collection << yield(language[i])
 i += 1 
 end
-my_collect(list) {|i| i.split(" ").first}
-end
