@@ -6,4 +6,5 @@ def my_collect(language)
 i += 1 
 end
 end
-my_collect(language) {|i| i.split(" ").first}
+my_collect(list) {|i| i.split(" ").first}
+end
