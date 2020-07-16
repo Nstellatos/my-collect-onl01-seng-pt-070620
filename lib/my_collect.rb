@@ -4,6 +4,6 @@ def my_collect(language)
   while i < language.length
   collection << yield(language[i])
 i += 1 
+end
+end
 
-end
-end
