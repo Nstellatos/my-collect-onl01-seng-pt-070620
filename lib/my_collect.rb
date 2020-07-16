@@ -6,3 +6,4 @@ def my_collect(language)
 i += 1 
 end
 my_collect(list) {|i| i.split(" ").first}
+end
